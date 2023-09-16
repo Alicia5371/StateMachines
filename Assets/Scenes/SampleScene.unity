@@ -287,8 +287,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.6074557, y: 1.3270216, z: 1.406662}
-  m_Center: {x: 0.14133205, y: 0.5278897, z: 0.08709001}
+  m_Size: {x: 11.726821, y: 8.433406, z: 11.062561}
+  m_Center: {x: 0.23115179, y: -3.8643641, z: 5.2592607}
 --- !u!4 &39954091
 Transform:
   m_ObjectHideFlags: 0
@@ -3545,6 +3545,7 @@ GameObject:
   - component: {fileID: 987846328}
   - component: {fileID: 987846330}
   - component: {fileID: 987846329}
+  - component: {fileID: 987846331}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3579,7 +3580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d284d47d4524bd745b4c8b2caee9788c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 300
+  speed: 400
   turnSmoothTime: 0.1
   cam: {fileID: 1540101493}
 --- !u!143 &987846330
@@ -3600,6 +3601,19 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &987846331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987846327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb0a680811b9f44c8de1c97a28f0988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentstate: 0
 --- !u!1 &1014994614
 GameObject:
   m_ObjectHideFlags: 0
